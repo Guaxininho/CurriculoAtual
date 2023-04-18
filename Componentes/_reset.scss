@@ -1,0 +1,35 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+@page {
+  size: A4;
+  margin: 0;
+}
+@media print {
+  html,
+  body {
+    width: 210mm;
+    height: 297mm;
+  }
+}
+
+body {
+  box-sizing: border-box;
+  background-color: #f8f9fa;
+  font-family: "Noto Sans Miao", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+a,
+a:active {
+  color: rgb(69, 128, 106);
+  text-decoration: none;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Miao&display=swap");

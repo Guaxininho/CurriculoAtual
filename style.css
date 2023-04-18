@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Miao&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+@page {
+  size: A4;
+  margin: 0;
+}
+@media print {
+  html,
+  body {
+    width: 210mm;
+    height: 297mm;
+  }
+}
+body {
+  box-sizing: border-box;
+  background-color: #f8f9fa;
+  font-family: "Noto Sans Miao", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a,
+a:active {
+  color: rgb(69, 128, 106);
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  height: 12rem;
+  background-color: #1864ab;
+}
+header #icones {
+  position: absolute;
+  display: flex;
+  gap: 1rem;
+  top: 2rem;
+  left: 98%;
+  transform: translateX(-100%);
+}
+header #icones img {
+  cursor: pointer;
+  width: 4rem;
+}
+header #flexHeader {
+  margin-left: 4rem;
+  display: flex;
+  flex-direction: column;
+  color: #f8f9fa;
+}
+header #flexHeader h1 {
+  font-size: 5rem;
+}
+header #flexHeader p {
+  font-size: 2.5rem;
+}
+
+main section {
+  margin-top: 1.5rem;
+  margin-left: 4rem;
+}
+main section p {
+  font-size: 2rem;
+  color: #212529;
+  max-width: calc(100% - 4rem);
+}
+main section h2 {
+  font-size: 2.5rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 0.1rem;
+  color: #212529;
+}
+main section hr {
+  width: calc(100% - 4rem);
+}
+main section ul {
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-left: 1.7rem;
+  list-style: square;
+  max-width: calc(100% - 4rem);
+}
+main section ul li {
+  margin-bottom: 1rem;
+}
+main section #flexcontatos {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+main .experiencias {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+main .experiencias h4 {
+  font-size: 2rem;
+  font-weight: normal;
+}/*# sourceMappingURL=style.css.map */
